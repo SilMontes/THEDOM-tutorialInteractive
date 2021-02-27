@@ -1,6 +1,6 @@
 {
     "port": 3000,
-    "address": "https://black-bedbug-odd4bdub.ws-us03.gitpod.io",
+    "address": "https://violet-carp-70y45pxe.ws-us03.gitpod.io",
     "editor": "gitpod",
     "configPath": {
         "config": "bc.json",
@@ -165,7 +165,7 @@
         {
             "slug": "12-Dynamic-HTML-String",
             "title": "12-Dynamic-HTML-String",
-            "done": false,
+            "done": true,
             "path": "exercises/12-Dynamic-HTML-String",
             "translations": [
                 "es",
