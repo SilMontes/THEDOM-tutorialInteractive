@@ -4,14 +4,15 @@ window.onload = function() {
 
 	// your code here}
 
-	let mySelect = document.getElementById("mySelect");
-	let selectValue = mySelect.value;
-	let pais = 0;
+	let mySelect = document.querySelector("#mySelect");
+
 	for (var i = 0; i < countries.length; i++) {
-		pais = countries[i];
-		mySelect.appendChild(pais);
+		let newOption = document.createElement("option");
+		newOption.value = countries[i];
+		newOption.innerHTML = countries[i];
+		mySelect.appendChild(newOption);
 	}
 	mySelect.addEventListener("change", () => {
-		alert(event.target.value);
+		alert(mySelect.value);
 	});
 };
