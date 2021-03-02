@@ -1,11 +1,11 @@
-
-
+//accedo a el h1
 let button = document.querySelector("#addToDo");
+//cuando se de click se realizará lo siguiente
 button.addEventListener("click", function() {
 	//your code here
 	document.querySelector("#myList").childNodes;
 	let elem = document.createElement("li");
-	let myString = "<span><i class='fa fa-trash'></i>Shower</span>";
+	let myString = "<span><i class='fa fa-trash'></i></span>";
 	elem.innerHTML = myString;
 	document.getElementById("myList").appendChild(elem);
 });

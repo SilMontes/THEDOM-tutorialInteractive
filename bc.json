@@ -1,6 +1,6 @@
 {
     "port": 3000,
-    "address": "https://amaranth-muskox-qiiu2jcr.ws-us03.gitpod.io",
+    "address": "https://bronze-llama-ouwb94sx.ws-us03.gitpod.io",
     "editor": "gitpod",
     "configPath": {
         "config": "bc.json",
