@@ -4,7 +4,7 @@ window.onload = function() {
 
 	// your code here}
 
-	let mySelect = document.querySelector("#mySelect");
+	 let mySelect = document.querySelector("#mySelect");
 
 	for (var i = 0; i < countries.length; i++) {
 		let newOption = document.createElement("option");
